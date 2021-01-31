@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.categories{
+	background-color: #ff2e2e;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/* padding-left: 100px; */
+	min-height: 350px;
+}
+.categories h3{
+	color: #fff;
+	margin-left: 80px;
+}
+.showcat{
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 40px;
+	margin-left: 40px;
+	/* border: 1px solid black; */
+	box-shadow: 0px 0px 10px grey;
+	background: #fff;
+	transition: 0.2s;
+}
+.showcat:hover{
+	transform: scale(1.2);
+}
+.showcat img{
+	width: 50%;
+}
+.showcat p{
+	margin-top: 10px;
+	color: black;
+}
+.navbar{
+	padding: 20px;
+	background: #ff2e2e;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	z-index: 1;
+}
+.heading h3{
+	margin: 0px;
+	font-weight: bolder;
+}
+.heading a{
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.linksp a{
+	margin-left: 10px;
+	padding: 34px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: #1f1f1f;
+}
+.linksp a:hover{
+	text-decoration: none;
+	background-color: white;
+	color: #ff2e2e;
+}
+.menubar{
+	right: 0;
+	cursor: pointer;
+	position: absolute;
+}
+.menubar i{
+	right: 0;
+	size: 20px;
+}
+.openmenu{
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	height: 260px;
+	background: #ff2e2e;
+	display: none;
+}
+.openmenu ul li{
+	list-style: none;
+	/* margin: 10px; */
+	margin-top: 10px;
+	width: 100%;
+}
+.openmenu ul li a{
+text-decoration: none;
+display:block;
+padding: 20px;
+width: 100%;
+text-align: center;
+padding:10px;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 20px;
+color: #fff;
+}
+.openmenu ul li a:hover{
+	background: #fff;
+	color: #ff2e2e;
+}
+.search{
+	background-image: url('../images/bg1.svg');
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 600px;
+	width: 100%;
+}
+.mainheadings{
+	padding-top: 80px;
+}
+.s_and_e{
+	font-size: 55px;
+	font-weight: bold;
+	color: #ff2e2e;
+	text-align: center;
+	text-shadow: 0px 0px 10px gainsboro;
+	letter-spacing: 2px;
+	margin: 0px;
+	word-spacing: 2px;
+}
+.onbestdeals{
+	font-size: 40px;
+	font-weight: lighter;
+	width: 100%;
+	text-align: center;
+}
+.searchbar{
+	left: 50px;
+	position: absolute;
+	top: 370px;
+}
+.searchbar input{
+	width: 95%;
+	padding: 5px;
+	border-radius: 25px;
+	font-size: 22px;
+	color: grey;
+	outline: none;
+	border: 1px solid #ff2e2e;
+}
+.searchbar input:focus{
+	outline: none;
+}
+.searchicon{
+	position: absolute;
+	cursor: pointer;
+	float: left;
+}
+.searchicon i{
+	font-size: 20px;
+	margin-top: 2px;
+	padding: 10px;
+	background: #fff;
+	border-radius: 50%;
+	margin-left: -55px;
+	color: #ff2e2e;
+}
+.result{
+	background:white;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+}
+.account_lhs{
+	padding:0px;
+	border: 1px solid black;
+}
+.account_lhs p{
+	margin: 0px;
+}
+.account_lhs p a{
+	text-decoration: none;
+	color: black;
+	padding:15px;
+	border-bottom: 1px solid gainsboro;
+	display: block;
+	
+}
+.account_lhs p a:hover{
+	text-decoration: none;
+}
+.account_rhs{
+	border: 1px solid black;
+	padding:10px;
+}
+.account_rhs form p input{
+	width: 30%;
+	padding:5px;
+	border-radius: 2px;
+	border: none;
+	border-bottom: 1px solid #ff2e2e;
+}
+.account_rhs form p input:focus{
+	outline: none;
+}
+.submit{
+	border: none;
+	background-color: #ff2e2e;
+	color: white;
+}
+.submit:hover{
+	color:#fff;
+}
+.changepassword_RHS{
+	border:1px solid black;
+	padding: 10px;
+}
+.changepassword_RHS form p input{
+	width: 30%;
+	padding:5px;
+	border-radius: 2px;
+	border: none;
+	border-bottom: 1px solid #ff2e2e;
+}
+.changepassword_RHS form p input:focus{
+	outline:none
+}
+.topdeals{
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/* padding-left: 100px; */
+	min-height: 350px;
+}
+.categoriesshow h3{
+	color: #fff;
+	margin-left: 80px;
+}
+.showtopdeals{
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 40px;
+	margin-left: 40px;
+	border-radius: 15px;
+	/* border: 1px solid #ff2e2e; */
+	box-shadow: 0px 0px 10px grey;
+	background: #fff;
+	transition: 0.2s;
+}
+.showtopdeals:hover{
+	transform: scale(1.2);
+}
+.showtopdeals img{
+	width: 50%;
+}
+.showtopdeals p{
+	margin-top: 10px;
+	color: black;
+}
+
+.footer-content
+{
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background: #FF2E2E;
+    outline: none;
+}
+.earnpoints{
+	font-size: 20px;
+	text-align: center;
+	margin-left: 50px;
+	width: 100%;
+}

@@ -1,0 +1,22 @@
+$(document).ready(function(){
+       $('#clicklogin').click(function(){
+        $('#login').css({"left":"50px"});
+        $('#signup').css({"left":"450px"});
+        $('#btn').css({"left":"0px"});
+    });
+    $('#clicksignup').click(function(){
+        $('#login').css({"left":"-400px"});
+        $('#signup').css({"left":"50px"});
+        $('#btn').css({"left":"110px"});
+    });
+    $('.cross_box').click(function(){
+        $('.modal').css({"display":"none"});
+    });
+    $('#login_signup').click(function(){
+        $('.modal').css({"display":"block"});
+    });
+    $('.tryagain').click(function(){
+        $('.modal').css({"display":"block"});
+        $('.loginerror').css({"display":"none"});
+    });
+});

@@ -1,0 +1,67 @@
+.showproducts{
+    margin-top: 20px;
+}
+.showproducts h4{
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+.products img{
+    width: 80%;
+    height: 200px;
+    margin:auto;
+}
+.products p{
+    text-align: center;
+}
+.shadow{
+    box-shadow: 0px 0px 10px gainsboro;
+    padding: 5px;
+    border-radius: 10px;
+}
+.nameofprod{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.offeronprod{
+    width: 70%;
+    margin:auto;
+    background: #ff2e2e;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.showdeals{
+    margin-top: 50px;
+    padding: 5px;
+}
+.showdeals h4{
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+.deals img{
+    width: 100%;
+    height:100px;
+}
+.offerondeal{
+    text-align: center;
+    width: 60%;
+    margin:auto;
+    background: #ff2e2e;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+.showallproducts{
+    padding: 10px;
+}
+.showallproducts img{
+    width: 100%;
+    height:200px;
+}
+.showalldeals img{
+    width: 100%;
+    height:100px;
+
+}

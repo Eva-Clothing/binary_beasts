@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+.rect{
+    fill:white;
+    stroke:rgba(170, 182, 182, 0.781);
+    stroke-width: 5;
+    opacity: 0.5;
+}
+.container {
+    display: inline-block;
+    /* float: right; */
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  .heading{
+        font-family: Poppins;
+        color: red;
+        font-size: 64px;
+        text-align: center;
+  }
+  .row{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+  }
+ /* Three columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 15px; 
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) 
+  {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+      border-radius: 15px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 8px;
+  }
+  
+  /* Some left and right padding inside the container */
+  .containerp {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .containerp::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+    font-family: Verdana;
+    text-align: center;
+  }
+  .dp{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 55%;
+      width: 50%;
+  }
+  .cardname{
+      padding-top: 30px;
+      text-align: center;
+      font-family: poppins;
+  }
+  .font{
+      font-family: 'Nunito','sans-serif';
+      text-align: center;
+  }
+  .social{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.socialimg{
+    padding-right: 5px;
+}
