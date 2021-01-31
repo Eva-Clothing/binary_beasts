@@ -1,0 +1,33 @@
+.heading{
+    color:#ff2e2e;
+    text-align: center;
+}
+.logout{
+    text-decoration: none;
+    color: white;
+    background: #ff2e2e;
+    padding: 15px;
+}
+.logout:hover{
+    text-decoration: none;
+    color: white;
+}
+.lhs a{
+    text-decoration: none;
+    background: #ff2e2e;
+    padding: 5px;
+    color:white;
+    display: block;
+    text-align: center;
+    margin: 20px;
+
+}
+.lhs a:hover{
+    text-decoration: none;
+}
+.table{
+    
+}
+.table tr td{
+    padding: 5px;
+}
